@@ -1,0 +1,207 @@
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+  font-family: Arial, sans-serif; /* Set the font family globally */
+
+}
+
+body {
+
+  display: flex;
+  flex-direction:column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #e1f5fe, #b3e5fc, #81d4fa);
+
+  color: #333;
+
+}
+
+.container, .admit-card {
+
+  width: 90%;
+
+  max-width: 500px;
+
+  background: linear-gradient(135deg, #f8f8f8, #cce7ff);
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+  text-align: left;
+
+}
+
+h2 {
+
+  font-size: 28px;
+
+  color: #003366;
+
+  margin-bottom: 20px;
+
+ text-align: center;
+}
+
+label {
+
+  display: block;
+
+  font-weight: bold;
+
+  color: #003366;
+
+  margin: 10px 0 5px;
+
+}
+
+input[type="text"], input[type="file"], input[type="password"] {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-bottom: 15px;
+
+  border: 1px solid #81d4fa;
+
+  border-radius: 5px;
+
+  background-color: #e1f5fe;
+
+  transition: background-color 0.3s;
+
+}
+
+input[type="text"]:focus, input[type="file"]:focus, input[type="password"]:focus {
+
+  background-color: #b3e5fc;
+
+  outline: none;
+
+  border-color: #4a90e2;
+
+}
+
+button {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 15px;
+
+  font-size: 18px;
+
+  background: linear-gradient(135deg, #003366, #4a90e2);
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+button:hover {
+
+  background: linear-gradient(135deg, #4a90e2, #003366);
+
+  transform: translateY(-2px);
+
+}
+
+button:active {
+
+  transform: translateY(1px);
+
+}
+
+.success, .error {
+
+  display: block;
+
+  font-size: 16px;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  margin-top: 15px;
+
+}
+
+.success {
+
+  color: #4CAF50;
+
+}
+
+.error {
+
+  color: #d32f2f;
+
+}
+
+.row {
+
+  margin-bottom: 12px;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+
+}
+
+.row strong {
+
+  font-weight: bold;
+
+  color: #003366;
+
+}
+
+.admit-card span {
+
+  color: #555;
+
+}
+
+#admitCardMessage {
+
+  margin-top: 20px;
+
+  font-size: 16px;
+
+  color: #333;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   /* background-color: red; */
+   color: white;
+   text-align: center;
+}
+
+

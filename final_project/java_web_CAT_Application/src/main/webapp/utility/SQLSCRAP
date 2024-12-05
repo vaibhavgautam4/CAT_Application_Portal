@@ -1,0 +1,77 @@
+select * from REGISTRATION;
+
+delete from REGISTRATION;
+
+select * from CANDIDATE;
+
+delete from ca
+
+
+
+
+create table Candidate(cid integer PRIMARY KEY, title varchar(6), fname varchar(20), mname varchar(20), lname varchar(20), dob date, gender varchar(10), state varchar(30), nationality varchar(30), father varchar(40), aadhaar BIGINT)
+
+select * from CANDIDATE;
+
+delete from Candidate;
+
+
+create table TestCity(cid integer PRIMARY KEY, city1 varchar(20), city2 varchar(20), city3 varchar(20));
+
+select * from TESTCITY;
+
+delete from TESTCITY where cid = 6900;
+
+delete from TESTCITY;
+
+
+create table WorkEx(cid integer PRIMARY KEY,experience integer,companyname varchar(50));
+
+select* from WorkEx;
+
+delete from WorkEx where cid = 6900;
+
+delete from WorkEx;
+
+
+
+create table Academics(cid integer PRIMARY KEY, schoolName10 varchar(30), schoolBoard10 varchar(20), percentage10 float, schoolName12 varchar(30), schoolBoard12 varchar(20), percentage12 float, collegeName varchar(30), collegeCourse varchar(20), collegeSpecialization varchar(30), collegeCGPA float);
+
+select * from Academics;
+
+delete from Academics where cid = 6900;
+
+delete from Academics;
+
+
+
+
+CREATE TABLE candidate_documents (
+    candidate_id INT PRIMARY KEY,
+    profile_photo BLOB,
+    aadhar_card BLOB,
+    signature_photo BLOB
+);
+
+select * from CANDIDATE_DOCUMENTS;
+
+delete from CANDIDATE_DOCUMENTS where candidate_id = 7200;
+
+delete from CANDIDATE_DOCUMENTS;
+
+
+
+
+create table dataFilled (cid Int primary key, registerDone boolean, candidateDone boolean, academicsDone boolean, workDone boolean, photoDone boolean, cityDone boolean, paymentDone boolean, admitDone boolean, admin boolean);
+
+select * from dataFilled;
+
+delete from DATAFILLED;
+
+drop table dataFilled;
+
+
+
+
+
+

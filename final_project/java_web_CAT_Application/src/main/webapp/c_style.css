@@ -1,0 +1,366 @@
+city-selection-section {
+
+ text-align: center;
+
+ padding: 40px 20px;
+
+ background: linear-gradient(135deg, #e1f5fe, #b3e5fc, #81d4fa);
+
+ color: #003366;
+
+ border-radius: 10px;
+
+ max-width: 800px;
+
+ margin: 30px auto;
+
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+ }
+
+.footer {
+
+  text-align: center;
+
+  padding: 10px;
+
+  background-color: #333;
+
+  color: #ffffff;
+
+  font-size: 0.9em;
+
+}
+ .city-selection-section h2 {
+
+ font-size: 1.8em;
+
+ color: #003366;
+
+ }
+
+ .city-selection-section p {
+
+ font-size: 1.1em;
+
+ color: #333;
+
+ }
+
+ #city-search-bar {
+
+ padding: 12px;
+
+ width: 60%;
+
+ font-size: 1em;
+
+ border: 2px solid #003366;
+
+ border-radius: 8px;
+
+ margin: 20px 0;
+
+ outline: none;
+
+ transition: border-color 0.3s;
+
+ }
+
+ #city-dropdown {
+
+ padding: 10px;
+
+ width: 60%;
+
+ font-size: 1em;
+
+ border: 2px solid #003366;
+
+ border-radius: 8px;
+
+ margin: 10px 0;
+
+ color: #333;
+
+ }
+
+
+ 
+
+
+
+ #city-search-bar:focus,
+
+ #city-dropdown:focus {
+
+ border-color: #00796b;
+
+ }
+
+ /* Navbar Styling */
+
+.navbar {
+
+ display: flex;
+
+ justify-content: space-between;
+
+ align-items: center;
+
+ padding: 15px 50px;
+
+ background-color: #003366;
+
+ position: sticky;
+
+ top: 0;
+
+ z-index: 10;
+
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+ }
+
+ .nav-logo h1 {
+
+ color: #ffffff;
+
+ font-weight: 600;
+
+ font-size: 1.5em;
+
+ }
+
+ .nav-links {
+
+ list-style: none;
+
+ display: flex;
+
+ gap: 30px;
+
+font-family: Arial, sans-serif;
+
+ }
+
+ .nav-links li {
+
+ position: relative;
+
+ }
+
+ .nav-links li a {
+
+ color: #ffffff;
+
+ text-decoration: none;
+
+ font-weight: 400;
+
+ padding: 5px 0;
+
+ font-size: 1em;
+
+ transition: color 0.3s ease;
+
+ }
+
+ /* Hover effect for links */
+
+ .nav-links li a::after {
+
+ content: "";
+
+ position: absolute;
+
+ bottom: -5px;
+
+ left: 0;
+
+ width: 0;
+
+ height: 2px;
+
+ background-color: #f2a365;
+
+ transition: width 0.3s ease;
+
+ }
+
+ .nav-links li a:hover::after {
+
+ width: 100%;
+
+ }
+
+ /* Action buttons for Login and Register */
+
+ .nav-actions .btn {
+
+ padding: 8px 16px;
+
+ margin-left: 10px;
+
+ border: none;
+
+ border-radius: 5px;
+
+ font-weight: 600;
+
+ cursor: pointer;
+
+ transition: 0.3s;
+
+ }
+
+ .login-btn {
+
+ background-color: #ffffff;
+
+ color: #003366;
+
+ }
+
+ .register-btn {
+
+ background-color: #f2a365;
+
+ color: #ffffff;
+
+ }
+
+ .btn:hover {
+
+ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+ }
+
+ /* Exam City Selection Section */
+
+ /* Exam City Selection Section */
+
+.exam-city-selection {
+
+ padding: 40px;
+
+ text-align: center;
+
+ background: linear-gradient(135deg, #e1f5fe, #b3e5fc);
+
+ color: #003366;
+
+ border-radius: 10px;
+
+ font-family: 'Poppins', sans-serif;
+
+ margin-top: 20px;
+
+ }
+
+ .exam-city-selection h2 {
+
+ font-size: 1.8em;
+
+ color: #003366;
+
+ margin-bottom: 15px;
+
+ }
+
+ .exam-city-selection p {
+
+ font-size: 1.1em;
+
+ margin-bottom: 30px;
+
+ color: #333;
+
+ }
+
+ .city-selection-container {
+
+ display: flex;
+
+ flex-wrap: wrap;
+
+ justify-content: space-around;
+
+ gap: 30px;
+
+ }
+
+ /* City Box Styling */
+
+ .city-box {
+
+ width: 220px;
+
+ padding: 25px;
+
+ background: linear-gradient(135deg, #ffffff, #e3f2fd);
+
+ border: 2px solid #003366;
+
+ border-radius: 15px;
+
+ box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+
+ text-align: center;
+
+ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+ }
+
+ .city-box:hover {
+
+ transform: scale(1.05);
+
+ box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+
+ }
+
+ .city-box label {
+
+ font-size: 1.1em;
+
+ font-weight: 600;
+
+ color: #003366;
+
+ margin-bottom: 10px;
+
+ }
+
+ .city-box select {
+
+ width: 100%;
+
+ padding: 10px;
+
+ margin-top: 10px;
+
+ font-size: 1em;
+
+ color: #333;
+
+ border: 1px solid #ccc;
+
+ border-radius: 5px;
+
+ outline: none;
+
+ background-color: #f9f9f9;
+
+ transition: border 0.3s ease;
+
+ }
+
+ .city-box select:focus {
+
+ border-color: #003366;
+
+ box-shadow: 0 0 5px rgba(0, 51, 102, 0.2);
+
+ }
+
